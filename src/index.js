@@ -32,3 +32,18 @@ export {
     UNavbar as UNavbar8,
     UNavbarItem as UNavbar8Item,
 } from './u-navbar-8.vue';
+
+export {
+    UNavbar as UNavbar9,
+    UNavbarItem as UNavbar9Item,
+} from './u-navbar-9.vue';
+
+export {
+    UNavbar as UNavbar10,
+    UNavbarItem as UNavbar10Item,
+} from './u-navbar-10.vue';
+
+export {
+    UNavbar as UNavbar11,
+    UNavbarItem as UNavbar11Item,
+} from './u-navbar-11.vue';
