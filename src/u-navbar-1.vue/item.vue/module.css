@@ -1,0 +1,34 @@
+@extend 'proto-ui.vusion/src/u-navbar.vue/item.vue/module.css';
+
+.root {
+    transition: color 0.5s;
+}
+
+.root::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    height: 1px;
+    width: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: currentColor;
+}
+
+.root:hover {
+    color: $brand-primary;
+}
+
+.root:hover::after {
+    transition: width 0.5s;
+    width: 100%;
+}
+
+.root[selected] {
+    color: $brand-primary;
+}
+
+.root[selected]::after {
+    width: 100%;
+}
