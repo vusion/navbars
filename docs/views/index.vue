@@ -28,12 +28,40 @@
         <u-navbar-3-item>Downloads</u-navbar-3-item>
         <u-navbar-3-item>About</u-navbar-3-item>
     </u-navbar-3>
+    <u-navbar-4 :class="$style.navbar" alignment="center" :router="false">
+        <u-navbar-4-item>Home</u-navbar-4-item>
+        <u-navbar-4-item>Guides</u-navbar-4-item>
+        <u-navbar-4-item>Features</u-navbar-4-item>
+        <u-navbar-4-item>Downloads</u-navbar-4-item>
+        <u-navbar-4-item>About</u-navbar-4-item>
+    </u-navbar-4>
+    <u-navbar-6 :class="$style.navbar" alignment="center" :router="false" color="inverse" style="background: #f19f0f;">
+        <u-navbar-6-item>Home</u-navbar-6-item>
+        <u-navbar-6-item>Guides</u-navbar-6-item>
+        <u-navbar-6-item>Features</u-navbar-6-item>
+        <u-navbar-6-item>Downloads</u-navbar-6-item>
+        <u-navbar-6-item>About</u-navbar-6-item>
+    </u-navbar-6>
+    <u-navbar-7 :class="$style.navbar" alignment="center" :router="false" color="inverse" style="background: #3fa46a;">
+        <u-navbar-7-item>Home</u-navbar-7-item>
+        <u-navbar-7-item>Guides</u-navbar-7-item>
+        <u-navbar-7-item>Features</u-navbar-7-item>
+        <u-navbar-7-item>Downloads</u-navbar-7-item>
+        <u-navbar-7-item>About</u-navbar-7-item>
+    </u-navbar-7>
+    <u-navbar-8 :class="$style.navbar" alignment="center" :router="false" color="inverse" style="background: #3fa46a;">
+        <u-navbar-8-item>Home</u-navbar-8-item>
+        <u-navbar-8-item>Guides</u-navbar-8-item>
+        <u-navbar-8-item>Features</u-navbar-8-item>
+        <u-navbar-8-item>Downloads</u-navbar-8-item>
+        <u-navbar-8-item>About</u-navbar-8-item>
+    </u-navbar-8>
 </div>
 </template>
 
 <style module>
 .navbar[class] {
-    padding: 50px 0;
+    padding: 80px 0;
     height: auto;
 }
 </style>
